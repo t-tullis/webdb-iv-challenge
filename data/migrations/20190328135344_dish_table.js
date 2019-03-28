@@ -8,7 +8,6 @@ exports.up = function(knex) {
         .string('name', 128)
         .notNullable()
         .unique();
-  
     });
   };
   

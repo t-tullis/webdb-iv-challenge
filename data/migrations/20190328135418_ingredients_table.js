@@ -8,7 +8,7 @@ exports.up = function(knex) {
         .notNullable()
 
         table
-        .real('quantity')
+        .float('quantity')
 
         table
         .integer('recipe_id')
